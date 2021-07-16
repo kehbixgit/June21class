@@ -1,0 +1,16 @@
+Installation of awscli
+=======================
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+sudo ./aws/install
+
+
+Terraform Installation:
+=======================
+dnf install wget -y
+wget https://releases.hashicorp.com/terraform/1.0.2/terraform_1.0.2_linux_amd64.zip
+dnf install unzip -y
+unzip terraform_1.0.2_linux_amd64.zip
+mv terraform /usr/bin/
+cd /usr/bin/
